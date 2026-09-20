@@ -126,48 +126,6 @@ D:\Xcode
 
 ---
 
-## ⚖️ How to Post to GitHub Without Getting Flagged (Complete Guide)
-
-If you plan to upload this project to GitHub, you need to be aware of what causes repositories to be flagged by automated scanners and how to ensure your repository remains safe and compliant.
-
-### 🚩 Why Repositories of Cloned Websites Get Flagged
-
-GitHub and automated threat detection systems (Google Safe Browsing, Microsoft Defender SmartScreen, Corsearch brand scanners) flag repositories primarily for three reasons:
-
-| Risk Vector | Why Scanners Flag It | How We Sanitized This Codebase |
-| :--- | :--- | :--- |
-| **1. Phishing & Credential Theft Heuristics** | Automated scanners look for OAuth login screens or callback pages (`oauth-callback/`) displaying Google logos and asking users to *"paste this authentication code"*. Repositories hosting active credential capture forms are automatically flagged or suspended as phishing kits. | **Neutralized:** In `oauth-callback/index.html`, active code harvesting has been replaced with an explicit educational mock display (`MOCK_ANTIGRAVITY_STUDY_CODE_OFFLINE`) and clear warning banners. |
-| **2. Unvalidated Open-Redirect Vulnerabilities** | Pages like `g1-upgrade/`, `g1-credits/`, and `g1-activity/` previously contained `<meta http-equiv="refresh">` tags and scripts that automatically redirected visitors to `accounts.google.com/AccountChooser`. Automated scanners flag open redirects to login providers as deceptive redirectors. | **Neutralized:** Removed the automatic JavaScript redirects and meta refresh tags. Replaced them with informative static cards explaining their architecture without forwarding users. |
-| **3. External Telemetry & Beaconing** | The site previously fired Google Tag Manager (`GTM-M4N2ZKXQ`) tracking beacons. When loaded from unauthorized hosts, this can trigger security alarms in Google's telemetry systems. | **Neutralized:** Stubbed `glueCookieNotificationBarLoaded` in `index.html` to log to console only without network calls. |
-| **4. Copyright Bots (DMCA Video Hashes)** | Commercial crawlers scan GitHub looking for exact file hashes of proprietary promotional videos (`hero_video.mp4`, `editor.mp4`). | **Mitigated:** Added `.gitignore` configurations allowing you to exclude heavy video binaries (`*.mp4`, `*.mov`) so only code and documentation are committed. |
-| **5. Deceptive Brand Impersonation** | Creating a repo named `antigravity.google` or claiming to be the official Google release violates GitHub Community Guidelines. | **Mitigated:** Included formal [`DISCLAIMER.md`](file:///D:/Xcode/DISCLAIMER.md), explicit Fair Use notices (17 U.S.C. § 107), and non-commercial educational [`LICENSE`](file:///D:/Xcode/LICENSE). |
-
----
-
-### 🛡️ Recommended Publishing Modes
-
-#### Option A: Private Repository (100% Safe & Zero Risk ✅)
-- **Visibility:** **Private**
-- **Purpose:** Personal cloud backup, code inspection, and offline study.
-- **Why it works:** Private repositories are not crawled by search engines, are not scanned by automated brand protection scrapers, and cannot be flagged for public copyright or phishing triggers.
-- **Verdict:** If you just want to store your research or work on it privately, this is the best and safest choice.
-
-#### Option B: Public Repository as an Architecture Study (Follow These Steps ⚠️)
-If you want to make your repository **Public** (e.g. to showcase your reverse-engineering documentation, WebGL analysis, or server script on your portfolio):
-
-1. **Use a Descriptive Study Name:**
-   - ✅ DO name your repo: `antigravity-frontend-study`, `google-antigravity-webgl-teardown`, or `antigravity-ui-architecture`
-   - ❌ DO NOT name your repo: `antigravity.google`, `google-antigravity`, or `google-official`
-2. **Repository About Section:**
-   - Description: *"Educational frontend architectural study, GLSL WebGL particle analysis, and offline mirror of antigravity.google. Non-commercial research."*
-   - Topics: `astro`, `threejs`, `webgl`, `glsl`, `gsap`, `reverse-engineering`, `educational-study`
-3. **DO NOT Enable GitHub Pages:**
-   - Do **NOT** publish this mirror as a live GitHub Pages website (`username.github.io/antigravity`). Serving cloned corporate brand marks and login screens on a live public URL is what triggers Google Safe Browsing and Microsoft SmartScreen domain blocks.
-4. **Keep the Legal Files in Place:**
-   - Keep [`DISCLAIMER.md`](file:///D:/Xcode/DISCLAIMER.md), [`LICENSE`](file:///D:/Xcode/LICENSE), and [`README.md`](file:///D:/Xcode/README.md) in the repository root.
-
----
-
 ## 📚 Technical Reference Documents
 
 - **[Master System Architecture & File Catalog (`info.md`)](file:///D:/Xcode/info.md)**: Exhaustive breakdown of all 402 files, routes, Astro layouts, and function signatures.
