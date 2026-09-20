@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Antigravity Blog</title>
+    <description>Stay up to date with the latest from the Google Antigravity team.</description>
+    <link>https://antigravity.google/blog</link>
+    <atom:link href="https://antigravity.google/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Sep 2026 21:54:56 GMT</lastBuildDate>
+    <item>
+      <title>Gemini 3.8 Flash in Google Antigravity</title>
+      <link>https://antigravity.google/blog/gemini-3-8-flash-in-google-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/gemini-3-8-flash-in-google-antigravity</guid>
+      <pubDate>Tue, 01 Sep 2026 08:00:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Model</category>
+    </item>
+    <item>
+      <title>Teamwork: When AI Becomes a Research Partner</title>
+      <link>https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner</guid>
+      <pubDate>Thu, 27 Aug 2026 10:00:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Research</category>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Visualizing with the help of Antigravity</title>
+      <link>https://antigravity.google/blog/visualizing-with-the-help-of-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/visualizing-with-the-help-of-antigravity</guid>
+      <pubDate>Wed, 26 Aug 2026 08:00:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Improving the Version Control Experience</title>
+      <link>https://antigravity.google/blog/vcs-and-terminal</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/vcs-and-terminal</guid>
+      <pubDate>Mon, 24 Aug 2026 20:30:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Antigravity Anywhere with Remote Control</title>
+      <link>https://antigravity.google/blog/remote-control-for-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/remote-control-for-antigravity</guid>
+      <pubDate>Fri, 21 Aug 2026 08:00:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Bringing Antigravity to Gemini Enterprise: Agentic workflows for every developer</title>
+      <link>https://antigravity.google/blog/antigravity-enterprise</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/antigravity-enterprise</guid>
+      <pubDate>Thu, 20 Aug 2026 16:30:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Enterprise</category>
+    </item>
+    <item>
+      <title>Introducing IDE Extensions</title>
+      <link>https://antigravity.google/blog/antigravity-ide-extensions</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/antigravity-ide-extensions</guid>
+      <pubDate>Thu, 20 Aug 2026 16:30:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Gemini 3.7 Flash in Google Antigravity</title>
+      <link>https://antigravity.google/blog/gemini-3-7-flash-in-google-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/gemini-3-7-flash-in-google-antigravity</guid>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Model</category>
+    </item>
+    <item>
+      <title>Introducing Custom Agents</title>
+      <link>https://antigravity.google/blog/introducing-custom-agents</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/introducing-custom-agents</guid>
+      <pubDate>Wed, 12 Aug 2026 14:25:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Gemini 3.6 Flash in Google Antigravity</title>
+      <link>https://antigravity.google/blog/gemini-3-6-flash-in-google-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/gemini-3-6-flash-in-google-antigravity</guid>
+      <pubDate>Tue, 21 Jul 2026 08:00:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Model</category>
+    </item>
+    <item>
+      <title>Google Antigravity @ I/O 2026</title>
+      <link>https://antigravity.google/blog/google-io-2026</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/google-io-2026</guid>
+      <pubDate>Tue, 19 May 2026 17:45:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Introducing Google Antigravity 2.0</title>
+      <link>https://antigravity.google/blog/introducing-google-antigravity-2</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/introducing-google-antigravity-2</guid>
+      <pubDate>Tue, 19 May 2026 17:44:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Google Antigravity Built an OS (and more)</title>
+      <link>https://antigravity.google/blog/google-antigravity-built-an-os</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/google-antigravity-built-an-os</guid>
+      <pubDate>Tue, 19 May 2026 17:43:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Research</category>
+    </item>
+    <item>
+      <title>Google Antigravity CLI</title>
+      <link>https://antigravity.google/blog/introducing-google-antigravity-cli</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/introducing-google-antigravity-cli</guid>
+      <pubDate>Tue, 19 May 2026 17:42:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Google Antigravity SDK</title>
+      <link>https://antigravity.google/blog/introducing-google-antigravity-sdk</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/introducing-google-antigravity-sdk</guid>
+      <pubDate>Tue, 19 May 2026 17:41:00 GMT</pubDate>
+      <author>The AI Platform Team, The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Google Antigravity in Gemini Enterprise</title>
+      <link>https://antigravity.google/blog/google-antigravity-for-enterprises</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/google-antigravity-for-enterprises</guid>
+      <pubDate>Tue, 19 May 2026 17:40:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Enterprise</category>
+    </item>
+    <item>
+      <title>Gemini 3.5 Flash in Google Antigravity</title>
+      <link>https://antigravity.google/blog/gemini-3-5-flash-in-google-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/gemini-3-5-flash-in-google-antigravity</guid>
+      <pubDate>Tue, 19 May 2026 17:39:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Model</category>
+    </item>
+    <item>
+      <title>Subagents, Hooks, Scheduled Tasks, Agent Management, Voice, and Much More</title>
+      <link>https://antigravity.google/blog/google-io-2026-feature-deep-dive</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/google-io-2026-feature-deep-dive</guid>
+      <pubDate>Tue, 19 May 2026 17:38:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Changes to Antigravity Plans</title>
+      <link>https://antigravity.google/blog/changes-to-antigravity-plans</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/changes-to-antigravity-plans</guid>
+      <pubDate>Tue, 19 May 2026 17:37:00 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Gemini 3.1 Pro, Building with Advanced Intelligence in Google Antigravity</title>
+      <link>https://antigravity.google/blog/gemini-3-1-pro-in-google-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/gemini-3-1-pro-in-google-antigravity</guid>
+      <pubDate>Thu, 19 Feb 2026 18:19:47 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Model</category>
+    </item>
+    <item>
+      <title>Gemini 3 Flash in Google Antigravity, agentic coding at the speed of thought</title>
+      <link>https://antigravity.google/blog/gemini-3-flash-in-google-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/gemini-3-flash-in-google-antigravity</guid>
+      <pubDate>Wed, 17 Dec 2025 18:19:47 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Model</category>
+    </item>
+    <item>
+      <title>Nano Banana Pro in Google Antigravity</title>
+      <link>https://antigravity.google/blog/nano-banana-pro</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/nano-banana-pro</guid>
+      <pubDate>Thu, 20 Nov 2025 18:19:47 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Model</category>
+    </item>
+    <item>
+      <title>Introducing Google Antigravity, a New Era in AI-Assisted Software Development</title>
+      <link>https://antigravity.google/blog/introducing-google-antigravity</link>
+      <guid isPermaLink="true">https://antigravity.google/blog/introducing-google-antigravity</guid>
+      <pubDate>Tue, 18 Nov 2025 18:19:47 GMT</pubDate>
+      <author>The Antigravity Team</author>
+      <category>Product</category>
+    </item>
+  </channel>
+</rss>
