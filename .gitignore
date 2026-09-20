@@ -1,0 +1,36 @@
+# ==============================================================================
+# Git Ignore Configuration - Google Antigravity Architecture Study
+# ==============================================================================
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Editor & IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Proprietary Heavy Media Assets (Optional: Exclude to prevent DMCA crawler triggers)
+# Uncomment these if you wish to exclude copyrighted video demonstrations from GitHub:
+# *.mp4
+# *.mov
+# antigravity.google/assets/video/
+# antigravity.google/assets/image/**/*.gif
+
+# Local preview server logs
+*.log
